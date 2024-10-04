@@ -8,9 +8,10 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Orbitron", sans-serif;
-  font-weight: 500;
+    font-weight: 500;
+    font-style: normal;
   list-style: none;
-  font-size: .9rem;
+  font-size: .8rem;
   text-transform: uppercase;
   color: white;
 }
@@ -79,4 +80,24 @@ li:hover {
   height: 10%;
   border-right: 1px solid var(--border-color);
   border-top: 1px solid var(--border-color);
+}
+
+.bottom_right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10%;
+  height: 10%;
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.bottom_left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10%;
+  height: 10%;
+  border-left: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
